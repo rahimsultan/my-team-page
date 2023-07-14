@@ -154,6 +154,7 @@
   .top-content {
     flex-direction: column;
     gap: 25px;
+    margin-bottom: 35px;
   }
   .team-members {
     margin-bottom: 40px;
@@ -162,6 +163,10 @@
   }
   .team {
     padding: 0px 25px 0px 25px;
+  }
+  .team__name {
+    margin-bottom: 30px;
+    margin-top: 14px;
   }
   .box-5 {
     margin-top: 0px;
@@ -173,7 +178,7 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   .container {
     padding-top: 60px;
     padding-left: 12px;
@@ -182,13 +187,19 @@
   .top-content {
     flex-direction: column;
     gap: 36px;
+    margin-bottom: 25px;
   }
   .team-members {
     margin-bottom: 60px;
     grid-template-columns: repeat(2, auto);
   }
+  .team {
+    padding: 0px 18px 0px 18px;
+  }
   .team__name {
     font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 20px;
   }
   .box-5 {
     margin-top: 0px;
