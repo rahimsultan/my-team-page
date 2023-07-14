@@ -157,7 +157,8 @@
   }
   .team-members {
     margin-bottom: 40px;
-    grid-template-columns: repeat(2, 250px);
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
   }
   .team {
     padding: 0px 25px 0px 25px;
@@ -184,7 +185,7 @@
   }
   .team-members {
     margin-bottom: 60px;
-    grid-template-columns: repeat(2, 160px);
+    grid-template-columns: repeat(2, auto);
   }
   .team__name {
     font-size: 14px;
